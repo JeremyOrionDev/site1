@@ -1,0 +1,116 @@
+@font-face { font-family: bauhaus; src: url('Bauhaus-93.ttf'); } 
+@media screen and( max-width:40em){
+#tablet{
+  position: absolute;
+  display: flex;
+  left: 10%;
+  top: 10vh;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  }
+}
+body{
+  font-family: "bauhaus";
+  height: 100vh;
+}
+#foot{
+  position: relative;
+  top: 90%;
+  text-align: center;
+  width: 100%;
+  height: 8%;
+}
+#tablet{
+  position: absolute;
+  display: flex;
+  left: 10%;
+  top: 10vh;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+#title{
+  position: relative;
+  top: -40%;
+  left: 50%;
+}
+nav{
+  font-family: "bauhaus";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #3498db;
+}
+header{
+    display: block;
+    position: relative;
+    top: 0;
+    height: 200px;
+    width: 800px;
+    color: red;
+}
+#tablet{
+    display: block;
+    position: relative;
+    width: 40%;
+    height: auto;
+}
+#logo{
+    position: relative;
+    top: 3%;
+    left: 3%;
+    color: rgb(42, 126, 168);
+}
+#logo2{
+    color: rgb(6, 186, 40);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  .pagination-wrapper {
+      position: absolute;
+      top: 95vh;
+    width: 100%;
+    height: 4vh;
+    background: #222222;
+
+  }
+  .pagination {
+    position: relative;
+    left: 40%;
+    top: 30%;
+  }
+  .pagination span{
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .pagination span.active{
+    border: 1px solid #3498db;
+  }
+  .pagination span:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background: #e74c3c;
+    border-radius: 50%;
+  }
+
+  #presentation1{
+    position: relative;
+    display: block;
+    left: 80%;
+    width: 60%;
+  }
