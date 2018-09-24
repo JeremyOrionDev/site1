@@ -1,5 +1,5 @@
 @font-face { font-family: bauhaus; src: url('Bauhaus-93.ttf'); } 
-@media screen and( max-width:40em){
+@media screen and( max-width:640px){
 #tablet{
   position: absolute;
   display: flex;
