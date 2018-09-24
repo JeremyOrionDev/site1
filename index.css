@@ -1,6 +1,7 @@
 @font-face { font-family: bauhaus; src: url('Bauhaus-93.ttf'); } 
 @media screen and (max-width:40em) 
 {
+  #tablet{ width:80%;height:auto;}
   #title{ background-color:red;}
 }
 body{
